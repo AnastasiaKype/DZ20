@@ -3,7 +3,8 @@ public class SpeedGame1 {
     public static boolean isGreenLight = false;
     public static int MaxSpeed = 3;
 
-
+    public SpeedGame1() {
+    }
 
     public static String[] namesWinners(String[] speeds) {
 
@@ -32,7 +33,7 @@ public class SpeedGame1 {
 
             } return namesWinner;
 
-        }
+        } return namesWinner;
 
     }
 }
